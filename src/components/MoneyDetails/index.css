@@ -1,0 +1,65 @@
+/* Write your CSS here */
+
+.list-item {
+  list-style-type: none;
+  border: 2px solid #84cc16;
+  border-radius: 15px;
+  background-color: #ecfccb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  width: 30%;
+  height: 115px;
+}
+
+.img {
+  height: 60px;
+  width: 60px;
+}
+
+.text-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.your-balance-text {
+  color: #7e858e;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0px;
+}
+.balance-amount {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.list-item-income {
+  list-style-type: none;
+  border: 2px solid #06b6d4;
+  border-radius: 15px;
+  background-color: #cffafe;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  width: 30%;
+  height: 115px;
+}
+
+.list-item-expenses {
+  list-style-type: none;
+  border: 2px solid #7c3aed;
+  border-radius: 15px;
+  background-color: #ede9fe;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  width: 30%;
+  height: 115px;
+}
